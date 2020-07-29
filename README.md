@@ -6,7 +6,7 @@ Before using this pipeline, you must add some files/folders from this repository
   1. ~/dependencies
   2. ~/eeglab14_1_2b/functions/sigprocfunc/FastICA_25
 
-To do so, navigate (in MATLAB) to the folder that you want to add, right click it, and click "add this folder to path". Do not add this folder and all subfolders to path. 
+To do so, navigate (in MATLAB) to the folder that you want to add, right click it, and click "add this folder to path". Do not click "add this folder and all subfolders". 
 
 Before running the script, the user must launch eeglab manually. To do so, navigate to "~/eeglab14_1_2b/" and type 'eeglab' in your command prompt. This will launch EEGLAB and add the necessary plugins to your path. It is important to launch EEGLAB this way, rather than adding it to your path with all subfolders, because EEGLAB calls functions that are named the same as some lower-level code that MATLAB calls, and adding both to your path confuses MATLAB.
 
