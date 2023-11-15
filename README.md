@@ -20,7 +20,7 @@ This pipeline will only do EEG data preprocessing. It will not segment the data,
   3. Downsample the data to 1024 Hz
   4. Remove indexed bad electrodes (if any) and apply a spherical spline interpolation from neighboring electrodes
   5. Lowpass filter at a user-specified frequency (recommend 40 Hz)
-  6. De-trend the data using a 1 Hz highpass filter
+  6. Highpass filter the data above 1 Hz
   7. Do an automatic ocular correction using ICA (if user select '1' on the prompt. Else, user will have to manually identify the eye-blink ICs. 
   8. Rereference to the average signal
   
